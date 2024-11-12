@@ -21,6 +21,7 @@ users = {'1': 'Имя: Example, возраст: 18'}
 
 def _max_user_id_as_int():
     return int(max(users, key=int))
+
 @app.get('/users')
 async def get_users() -> dict:
     return users
