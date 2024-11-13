@@ -42,7 +42,10 @@ async def get_users() -> List[User]:
 
 @app.post('/user/{username}/{age}')
 async def post_user(user: User) -> str:
-    user.id = len(users) + 1
+    if users:
+        user.id = max(users, key=lambda usr: usr.id).id + 1
+    else:
+        user.id = 1
     #user.username = username
     #user.age = age
     users.append(user)
