@@ -52,7 +52,7 @@ async def post_user(user: User) -> str:
     return f'User with id {user.id} is registered.'
 
 @app.put('/user/{user_id}/{username}/{age}')
-async def post_user(user_id: Annotated[int, Path(ge=1, le=999, description='Введите user_id (целое число)', example=10)],
+async def put_user(user_id: Annotated[int, Path(ge=1, le=999, description='Введите user_id (целое число)', example=10)],
                     username: Annotated[str, Path(min_length=3, max_length=15, description='Введите имя_пользователя', example='UrbanUser')],
                     age: Annotated[int, Path(ge=18, le=120, description='Введите Ваш возраст', example='39')]) -> str:
     try:
@@ -60,7 +60,8 @@ async def post_user(user_id: Annotated[int, Path(ge=1, le=999, description='Вв
         users[user_id].age = age
     except IndexError:
         raise HTTPException(status_code=404, detail="User was not found")
-    return f'The user with user_id {user_id} is updated.'
+    #return f'The user with user_id {user_id} is updated.'
+    return users[user_id]
 
 @app.delete('/user/{user_id}')
 async def delete_user(user_id: Annotated[int, Path(ge=1, le=999, description='Введите user_id (целое число)', example=1)]) -> User:

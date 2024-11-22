@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f21aa6-0e10-4d31-b2f2-04dee5a7b4cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/module16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module16_seminar-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_16_1.py" afterDir="false" />
+    <list default="true" id="a3f21aa6-0e10-4d31-b2f2-04dee5a7b4cc" name="Changes" comment="Добавлено решение задания 16.5 Python + HTML (FastAPI, Request, HTMLResponse, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/module16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/module16.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ok92zgKlvTQoqynrTNnqGhdAT1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,11 +36,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.module16_seminar-1.executor": "Run",
+    "Python.module16_seminar-2.executor": "Run",
+    "Python.module16_seminar-3.executor": "Run",
+    "Python.module_16_1.executor": "Run",
+    "Python.module_16_2.executor": "Run",
+    "Python.module_16_3.executor": "Run",
+    "Python.module_16_4.executor": "Run",
+    "Python.module_16_5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/YandexDisk/Urban University 2024/+16МодульТильда",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\YandexDisk\Urban University 2024\module16\templates" />
+      <recent name="C:\Users\Admin\YandexDisk\Urban University 2024\module16" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,6 +71,99 @@
       <option name="presentableId" value="Default" />
       <updated>1731402503521</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавлена задача 16.1 (FastAPI, uvicorn)">
+      <option name="closed" value="true" />
+      <created>1731423190652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731423190652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавлена задача 16.1 (FastAPI, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731423396791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731423396791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлена задача 16.1 (FastAPI, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731424494208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731424494208</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлена задача 16.2 (FastAPI, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731425338137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731425338137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлена практика 2 (FastAPI, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731429769580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731429769580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлено решение 16.3 (FastAPI, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731432612797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731432612797</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Добавлена практика 3 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731440121328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731440121328</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавлено решение задания 16.4 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731442208210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731442208210</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Исправлено присвоение индекса в решении задания 16.4 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731526898205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731526898205</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавлено решение задания 16.5 Python + HTML (FastAPI, Request, HTMLResponse, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)">
+      <option name="closed" value="true" />
+      <created>1731560072408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731560072408</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлена задача 16.1 (FastAPI, uvicorn)" />
+    <MESSAGE value="Добавлена задача 16.1 (FastAPI, uvicorn, /docs)" />
+    <MESSAGE value="Добавлена задача 16.2 (FastAPI, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Добавлена практика 2 (FastAPI, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Добавлено решение 16.3 (FastAPI, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Добавлена практика 3 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Добавлено решение задания 16.4 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Исправлено присвоение индекса в решении задания 16.4 (FastAPI, Body, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <MESSAGE value="Добавлено решение задания 16.5 Python + HTML (FastAPI, Request, HTMLResponse, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено решение задания 16.5 Python + HTML (FastAPI, Request, HTMLResponse, HTTPException, pydantic, BaseModel, get, post, put, delete, Path, Annotated, uvicorn, /docs)" />
   </component>
 </project>
